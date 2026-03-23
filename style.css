@@ -1,0 +1,45 @@
+
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url('https://avatars.mds.yandex.net/i?id=a70af2399e57c58d9968d4e619a9c12f927506d6-4886334-images-thumbs&n=13');
+    background-attachment: fixed
+}
+
+h {
+    margin-left: 50px;
+    font-size: 50px
+}
+
+p1 {
+    font-size: 50px;
+    margin-left: 500px
+}
+
+p {
+    font-size: 50px;
+    margin-left: 500px
+}
+
+button {
+    width: 500px;
+    height: 100px;
+    margin-left: 500px
+}
+
+.test {
+    transition: 1s;
+    width: 100px;
+    height: 100px;
+    margin-left: 300px
+}
+
+.test:hover {
+    transform: scale(4)
+}
+
+
+html {
+    scroll-behavior: smooth
+}
